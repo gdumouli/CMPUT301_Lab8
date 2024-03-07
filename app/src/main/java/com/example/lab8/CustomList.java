@@ -17,6 +17,7 @@ public class CustomList extends ArrayAdapter<City> {
     private ArrayList<City> cities;
     private Context context;
 
+
     public CustomList(Context context, ArrayList<City> cities) {
         super(context, 0, cities);
         this.cities = cities;
@@ -52,5 +53,6 @@ public class CustomList extends ArrayAdapter<City> {
     public void addCity(City city){
         cities.add(city);
     }
+
 
 }
